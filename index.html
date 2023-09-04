@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body style="font-family: sans-serif;">
+    <!--TEXT INPUT-->
+    <h1>Text Input</h1>
+    <p>
+    <form action="">
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+    </form>
+    </p>
+    <br>
+    <!--PASSWORD INPUT-->
+    <h1>Password Input</h1>
+    <p>
+    <form action="">
+        <label for="password">Password:</label>
+        <input type="password" name="user_password" id="password" placeholder="Password" required>
+    </form>
+    </p>
+    <br>
+    <!--DATE INPUT-->
+    <h1>Date Input</h1>
+    <p>
+    <form action="">
+        <label for="date">Date:
+        </label>
+        <input type="date" name="date" id="date">
+    </form>
+    </p>
+    <br>
+    <!--EMAIL INPUT-->
+    <h1>Email Input</h1>
+    <p>
+    <form action="">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+    </form>
+    </p>
+    <br>
+    <!--TEXT AREA-->
+    <h1>Text Area</h1>
+    <p>
+    <form action="">
+        <textarea name="comments" id="comments" cols="60" rows="10" placeholder="Leave a comment"
+            style="font-family: sans-serif;"></textarea>
+    </form>
+    </p>
+    <br>
+    <!--RADIO BUTTON-->
+    <h1>Radio Button</h1>
+    <p>
+    <form action="">
+        <p>Please select your favorite music genre:</p>
+        <input type="radio" name="genre" id="rock" value="rock">
+        <label for="rock">Rock</label>
+
+        <input type="radio" name="genre" id="pop" value="pop">
+        <label for="pop">Pop</label>
+
+        <input type="radio" name="genre" id="jazz" value="jazz">
+        <label for="jazz">Jazz</label>
+
+        <input type="radio" name="genre" id="rock" value="rock">
+        <label for="rock">Rock</label>
+    </form>
+    </p>
+    <br>
+    <!--CHECKBOX-->
+    <h1>Checkbox</h1>
+    <form action="">
+        <p>
+        <p>Please select your favorite food:</p>
+        <input type="checkbox" name="food" id="ramen" value="ramen">
+        <label for="ramen">Ramen</label>
+
+        <input type="checkbox" name="food" id="sushi" value="sushi">
+        <label for="sushi">Sushi</label>
+
+        <input type="checkbox" name="food" id="curry" value="curry">
+        <label for="curry">Curry</label>
+        </p>
+    </form>
+    <br>
+    <!--DROPDOWN LIST-->
+    <h1>Dropdown List</h1>
+    <form action="">
+        <p>
+        <p>What is your device?</p>
+        <select name="device" id="device">
+            <option value="macbook">Macbook</option>
+            <option value="ipad">iPad</option>
+            <option value="iphone">iPhone</option>
+        </select>
+        </p>
+    </form>
+    <br>
+    <!--SELECT BOX-->
+    <h1>Select Box</h1>
+    <form action="">
+        <p>
+        <p>Select a Car:
+        </p>
+        <select name="car" id="car" multiple>
+            <option value="toyota">Toyota</option>
+            <option value="nissan">Nissan</option>
+            <option value="honda">Honda</option>
+        </select>
+        </p>
+    </form>
+    <br>
+    <!--INPUT BOX-->
+    <h1>Input Box</h1>
+    <form action="">
+        <p>
+            <input type="file" name="file" id="file" required>
+        </p>
+    </form>
+    <br>
+    <!--SUBMIT BUTTON-->
+    <h1>Submit Button</h1>
+    <p>
+    <form action="">
+        <input type="submit" name="submit" id="submit" value="Submit">
+    </form>
+    </p>
+    <br>
+    <!--BUTTON-->
+    <h1>Button</h1>
+    <p>
+        <form action="">
+            <button>I am a button</button>
+        </form>
+    </p>
+    <br>
+    <!--IMAGE BUTTON-->
+    <h1>Image Button</h1>
+    <p>
+        <form action="">
+            <input type="image" src="submit-button.png" name="submit" id="submit" width="15%" height="15%">
+        </form>
+    </p>
+</body>
+
+</html>
